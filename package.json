@@ -2,7 +2,8 @@
     "name": "chordproject-parser-fork",
     "version": "1.0.0",
     "main": "dist/chordproject-parser.bundle.js",
-    "typings": "types/index.d.ts",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "type": "module",
     "files": [
         "dist",
