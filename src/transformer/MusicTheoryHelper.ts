@@ -1,5 +1,3 @@
-import { MusicNote } from "../models";
-
 export class MusicTheoryHelper {
     static circleOfFifths: string[] = ["C", "G", "D", "A", "E", "B", "F#", "Db", "Ab", "Eb", "Bb", "F"];
 

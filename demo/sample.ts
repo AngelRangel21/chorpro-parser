@@ -1,9 +1,6 @@
-import { ChordProParser, Transposer } from "../src";
+import { ChordProParser, Song, Transposer } from "../src";
 import { HtmlFormatter } from "../src/formatter";
-import { HtmlBuilder } from "../src/formatter/builders";
 import { FormatterSettings } from "../src/formatter/FormatterSettings";
-
-("use strict");
 
 var chordSheet = `
 {title: Praise Adonai}
@@ -67,7 +64,7 @@ settings.showChords = true;
 const formatter = new HtmlFormatter(settings);
 let currentSong = song; // Maintain the current state of the song
 
-const renderSong = (song: any) => {
+const renderSong = (song: Song) => {
     const demoElement = document.getElementById("demo")!;
     demoElement.innerHTML = ""; // Clear the entire container
     const result = formatter.format(song);
