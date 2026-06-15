@@ -8,8 +8,6 @@
         "esModuleInterop": true, // Facilita la interoperabilidad con CommonJS
         "forceConsistentCasingInFileNames": true, // Evita problemas de mayúsculas/minúsculas
         "skipLibCheck": true, // Mejora el rendimiento al ignorar comprobaciones de tipos en archivos de definición
-        "declaration": true,
-        "declarationDir": "types",
         "emitDeclarationOnly": false,
         "sourceMap": true,
         "allowSyntheticDefaultImports": true,
