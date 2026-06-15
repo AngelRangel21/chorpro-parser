@@ -15,7 +15,8 @@
         "removeComments": true,
         "preserveConstEnums": true,
         "allowJs": false,
-        "useDefineForClassFields": true // Comportamiento moderno para campos de clase
+        "useDefineForClassFields": true, // Comportamiento moderno para campos de clase
+        "ignoreDeprecations": "5.0"
     },
     "include": [
         "src/**/*"
